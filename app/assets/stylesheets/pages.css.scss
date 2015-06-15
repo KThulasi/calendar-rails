@@ -1,18 +1,50 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-.main { background:url(http://s3.amazonaws.com/codecademy-blog/assets/puppy-main_zps26d178c5.jpg); background-size:cover; height:800px; 
+
+.main { background:url(http://webneel.com/wallpaper/sites/default/files/images/04-2013/clean-sky-wallpaper.jpg); background-size:cover; height:800px; 
 } 
 .nav{ 
-list-style-type:
-none; margin:0; padding:20px;
+list-style-type:none; margin:0; padding:10px;
+background-color:black;
+background-size:cover; 
 } 
 .nav li{ 
-color:black; display:inline; font-family:'Raleway', sans-serif; font-weight:600; font-size:12px; margin-right:25px; text-transform:uppercase; 
+ display:inline; font-family:'Raleway', sans-serif; font-weight:600; font-size:12px;  text-transform:uppercase; 
+
+}
+.nav a {
+color:purple;
 }
 p
 {
 color: green;
 font-size: 30px
 
+}
+.about
+{
+background:url(http://media1.santabanta.com/full1/Miscellaneous/Baby/baby-123a.jpg);
+background-size:cover;
+height:800px;
+}
+.portfolio
+{
+background:url(https://portfolio-rails-2633.herokuapp.com/assets/project02-ba5afb4eb817317b6be7ba2948be9fe3.jpg);
+height:800px;
+}
+.footer{
+background-color: #FFF;
+box-sizing: border-box;
+color: #333;
+font-family: "Roboto",sans-serif;
+font-size: 14px;
+font-weight: 300;
+height: 500px;
+line-height: 20px;
+text-align:right;
+width: 946px;
+}
+.contact
+{
+height:200px;
+background:url(http://www.bagyatech.com/wp-content/uploads/2014/11/contactus-header.jpg);
+text-align:center;
 }
